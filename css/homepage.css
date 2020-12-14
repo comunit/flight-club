@@ -303,11 +303,13 @@ ul.download-list strong {
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .visible-mobile {
-    display: block !important;
+    display: none;
   }
+}
 
+@media (max-width: 700px) {
   .hidden-mobile {
     display: none;
   }
