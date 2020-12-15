@@ -709,6 +709,10 @@ main h3 {
 .c-trio p {
   margin-bottom: 0;
 }
+
+.c-trio {
+  padding: 0;
+}
 @media (min-width: 768px) {
   .c-trio img {
     float: left;
