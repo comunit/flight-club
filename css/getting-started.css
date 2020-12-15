@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+
+* {
+  font-family: "Commissioner", sans-serif;
+  margin: 0;
+}
+
+/* header section  */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+
+.header-ul {
+  margin-top: 8px;
+  padding: 0;
+}
+.header-ul li {
+  display: inline;
+}
+.header-li-right {
+  float: right;
+}
+
+.header-li-left {
+  float: left;
+}
+
+.header-li-right button {
+  padding: 8px;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* header section ends  */
+
+/* hero section css  */
+/*! CSS Used from: https://www.mozilla.org/media/css/BUNDLES/common.ed203610d03a.css */
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+:link {
+  color: #0060df;
+  text-decoration: underline;
+}
+:link:hover {
+  text-decoration: none;
+}
+:link:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+:visited {
+  color: #b833e1;
+}
+:visited:hover {
+  color: #952bb9;
+}
+h1,
+h2 {
+  font-weight: 700;
+  margin: 0 0 0.5em;
+}
+.mzp-t-firefox h1,
+.mzp-t-firefox h2 {
+  font-family: Metropolis, Inter, X-LocaleSpecific, sans-serif;
+}
+h1 {
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 0.25em;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 0.45em;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 56px;
+    font-size: 3.5rem;
+  }
+}
+p {
+  margin: 0 0 1.25em;
+}
+.mzp-c-button,
+a.mzp-c-button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 1rem;
+  -webkit-transition: background-color 0.1s, box-shadow 0.1s, color 0.1s;
+  transition: background-color 0.1s, box-shadow 0.1s, color 0.1s;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 6px 24px;
+  text-decoration: none !important;
+}
+.mzp-c-button:focus,
+a.mzp-c-button:focus {
+  box-shadow: 0 0 0 2px rgba(0, 144, 237, 0.5);
+  border-color: #008aea;
+  outline: 0;
+}
+.mzp-c-button::-moz-focus-inner,
+a.mzp-c-button::-moz-focus-inner {
+  border: 0;
+}
+.mzp-c-button:hover,
+a.mzp-c-button:hover {
+  box-shadow: none;
+}
+.mzp-c-button:disabled,
+a.mzp-c-button:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.mzp-t-firefox .mzp-c-button,
+.mzp-t-firefox a.mzp-c-button {
+  font-family: Metropolis, Inter, X-LocaleSpecific, sans-serif;
+}
+.mzp-c-button.mzp-t-xl {
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 10px 24px;
+}
+.mzp-c-button,
+a.mzp-c-button {
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+.mzp-c-button:focus,
+a.mzp-c-button:focus {
+  border-color: #008aea;
+  box-shadow: 0 0 0 2px rgba(0, 144, 237, 0.5);
+}
+.mzp-c-button:hover,
+a.mzp-c-button:hover {
+  background-color: #ededf0;
+  border-color: #000;
+  box-shadow: none;
+  color: #000;
+}
+.mzp-c-button:active,
+a.mzp-c-button:active {
+  background-color: #ededf0;
+  border-color: #5e5e72;
+  color: #000;
+}
+.mzp-c-button.mzp-t-product,
+a.mzp-c-button.mzp-t-product {
+  background-color: #0060df;
+  border-color: transparent;
+  color: #fff;
+}
+.mzp-c-button.mzp-t-product:focus,
+a.mzp-c-button.mzp-t-product:focus {
+  border-color: #008aea;
+  box-shadow: 0 0 0 2px rgba(0, 144, 237, 0.5);
+}
+.mzp-c-button.mzp-t-product:hover,
+a.mzp-c-button.mzp-t-product:hover {
+  background-color: #0250bb;
+  border-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+.mzp-c-button.mzp-t-product:active,
+a.mzp-c-button.mzp-t-product:active {
+  background-color: #073072;
+  border-color: transparent;
+  color: #fff;
+}
+.mzp-c-button-download-container {
+  text-align: center;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.mzp-c-button-download-privacy-link {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  display: block;
+  margin-top: 16px;
+}
+.mzp-c-button-download-privacy-link a:link,
+.mzp-c-button-download-privacy-link a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.mzp-c-button-download-privacy-link a:active,
+.mzp-c-button-download-privacy-link a:focus,
+.mzp-c-button-download-privacy-link a:hover {
+  text-decoration: underline;
+}
+/*! CSS Used from: https://www.mozilla.org/media/css/BUNDLES/firefox_desktop_download.ed849a028caf.css */
+main h2 {
+  color: #20123a;
+  margin-bottom: 16px;
+}
+.main-download .mzp-c-button-download-container {
+  margin-bottom: 0;
+}
+.t-intro .mzp-c-button-download-container {
+  text-align: left;
+}
+.c-logo.t-browser-word-hor-xs {
+  background-image: url("https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-word-hor-xs.c87882e8c93c.png");
+  background-size: auto 40px;
+  direction: ltr;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -9999px;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  height: 48px;
+  margin-bottom: 40px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-resolution: 144dpi) {
+  .c-logo.t-browser-word-hor-xs {
+    background-image: url("https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-word-hor-xs-high-res.94636309e737.png");
+    background-size: auto 40px;
+  }
+}
+.c-logo.t-browser-word-hor-xs {
+  background-position: top left;
+}
+@media all and (min-width: 0) {
+  .c-logo.t-browser-word-hor-xs {
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .c-logo.t-browser-word-hor-xs {
+    background-size: auto 48px;
+    margin-bottom: 56px;
+    height: 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .c-logo.t-browser-word-hor-xs {
+    margin-bottom: 56px;
+  }
+}
+.c-block-container {
+  zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1344px;
+  min-width: 304px;
+  padding: 0 20px;
+  margin-top: 28px;
+}
+.c-block-container:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .c-block-container {
+    padding: 0 64px;
+  }
+}
+@media (min-width: 1024px) {
+  .c-block-container {
+    padding: 0 96px;
+  }
+}
+.c-block-body {
+  position: relative;
+  margin-top: 8%;
+}
+@media all and (max-width: 767px) {
+  .c-block-body:first-child {
+    margin-bottom: 48px;
+  }
+  .mzp-has-media-hide-on-sm .c-block-body {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+.c-block-media {
+  position: relative;
+}
+@media (max-width: 687px) {
+  .mzp-has-media-hide-on-sm .c-block-media {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .c-block-body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 40px;
+  }
+  .c-block-body {
+    float: left;
+  }
+  .c-block-body > :first-child {
+    margin-top: 0;
+  }
+  .c-block-body > :last-child {
+    margin-bottom: 0;
+  }
+  .c-block-media {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 40px;
+  }
+  .c-block-media {
+    float: right;
+  }
+}
+.t-intro .c-block-container {
+  max-width: 1344px;
+}
+.t-intro p {
+  margin-bottom: 48px;
+}
+.c-intro-download-alt {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #42414d;
+  display: block;
+  margin-top: 16px;
+}
+.c-intro-download-alt a:link,
+.c-intro-download-alt a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.c-intro-download-alt a:active,
+.c-intro-download-alt a:focus,
+.c-intro-download-alt a:hover {
+  text-decoration: underline;
+}
+.c-noodles {
+  left: 0;
+  position: relative;
+  top: 0;
+}
+.t-intro .c-noodles {
+  height: 536px;
+  left: 30px;
+  width: 537px;
+}
+.noodle-browser {
+  background-image: url("../images/hero-image.png");
+  background-size: 512px 371px;
+  background-color: #f9f9fb;
+  border-radius: 4px;
+  box-shadow: 0 16px 24px 2px rgba(29, 17, 51, 0.04),
+    0 6px 32px 4px rgba(9, 32, 77, 0.12), 0 8px 12px -5px rgba(29, 17, 51, 0.12);
+  height: 371px;
+  left: -30px;
+  max-width: none;
+  position: absolute;
+  top: 100px;
+  width: 512px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-resolution: 144dpi) {
+  .noodle-browser {
+    background-image: url("https://www.mozilla.org/media/img/firefox/new/desktop/hero-high-res.21ccf6816984.png");
+    background-size: 512px 371px;
+  }
+}
+.noodle-pill {
+  border: 1px solid transparent;
+  border-radius: 500px;
+  position: absolute;
+}
+.noodle-circle {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  position: absolute;
+}
+.noodle-svg {
+  position: absolute;
+}
+.t-outline-purple {
+  border-color: #7542e5;
+}
+.t-fill-purple {
+  background: linear-gradient(to left, #9059ff, #592acb);
+}
+.t-fill-orange {
+  background-color: #ff7139;
+}
+.t-outline-yellow {
+  border-color: #ff8a50;
+}
+.noodle-svg {
+  animation: curl 10s infinite alternate;
+  position: absolute;
+  transform-origin: top right;
+}
+.noodle-circle {
+  animation: round 9s infinite linear;
+  height: 20px;
+  left: 296px;
+  top: 40px;
+  transform-origin: 5px;
+  width: 20px;
+}
+.noodle-circle.t-fill-orange {
+  animation-duration: 10s;
+  animation-delay: -3s;
+  height: 165px;
+  left: 135px;
+  top: 342px;
+  transform-origin: 80px 80px;
+  width: 165px;
+}
+.noodle-pill.t-outline-purple {
+  animation: pill 7s infinite alternate;
+  animation-delay: -5s;
+  height: 145px;
+  top: 320px;
+  transform: rotate(-34deg);
+  width: 348px;
+}
+.noodle-pill.t-fill-purple {
+  animation: pill 7s infinite alternate;
+  height: 145px;
+  left: 100px;
+  top: 120px;
+  transform: rotate(-34deg);
+  width: 370px;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .noodle-circle,
+  .noodle-pill,
+  .noodle-svg {
+    animation: none;
+  }
+}
+/*! CSS Used keyframes */
+@keyframes curl {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+@keyframes round {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pill {
+  from {
+    transform: rotate(-34deg) translate(7px, 0);
+  }
+  to {
+    transform: rotate(-34deg) translate(-7px, 0);
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-display: swap;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.mozilla.org/media/fonts/Metropolis-Medium.97c97a09cc75.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Metropolis-Medium.cce692f84337.woff")
+      format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://www.mozilla.org/media/fonts/Metropolis-Bold.6a80125e795a.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Metropolis-Bold.1b5b51bac870.woff")
+      format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.mozilla.org/media/fonts/Inter-Regular.d55e957612a3.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Inter-Regular.1a7f90ff1f1e.woff")
+      format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://www.mozilla.org/media/fonts/Inter-Bold.0564381b22b2.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Inter-Bold.2767206dcd8d.woff")
+      format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://www.mozilla.org/media/fonts/Inter-Italic.d6a4e2b82a0b.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Inter-Italic.fb463a63312e.woff")
+      format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://www.mozilla.org/media/fonts/Inter-BoldItalic.9d1b867e3416.woff2")
+      format("woff2"),
+    url("https://www.mozilla.org/media/fonts/Inter-BoldItalic.d4f1ac27c3c1.woff")
+      format("woff");
+}
+/* hero section css ends  */
