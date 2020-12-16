@@ -1419,14 +1419,15 @@ a:visited {
 }
 .user-story-p {
   font-size: 1.2rem;
-  text-align: justify;
+  text-align: left;
   margin-right: 10px;
 }
 
 .user-storiesh3 {
   margin-top: 6%;
   font-size: 2rem;
-  text-align: justify;
+  text-align: left;
+
   margin-right: 10px;
   color: #000;
   margin-bottom: 10px;
@@ -1440,5 +1441,11 @@ a:visited {
 @media screen and (max-width: 1125px) {
   .userstories {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user-story-img {
+    width: 100%;
   }
 }
