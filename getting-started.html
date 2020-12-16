@@ -169,7 +169,7 @@
     <!-- how this works end  -->
     <br />
     <!-- dragable deals slider -->
-    <h2 class="c-section-title mzp-has-zap-8">
+    <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
       <strong>Our</strong> recent roundtrip deals
     </h2>
     <div class="slider">
@@ -182,7 +182,7 @@
           />
           <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
 
-          <h2 class="c-section-title mzp-has-zap-8">
+          <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
             <strong>£299</strong>
           </h2>
         </div>
@@ -196,7 +196,7 @@
           />
           <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
 
-          <h2 class="c-section-title mzp-has-zap-8">
+          <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
             <strong>£299</strong>
           </h2>
         </div>
@@ -210,7 +210,7 @@
           />
           <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
 
-          <h2 class="c-section-title mzp-has-zap-8">
+          <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
             <strong>£299</strong>
           </h2>
         </div>
@@ -224,7 +224,7 @@
           />
           <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
 
-          <h2 class="c-section-title mzp-has-zap-8">
+          <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
             <strong>£299</strong>
           </h2>
         </div>
@@ -238,42 +238,202 @@
           />
           <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
 
-          <h2 class="c-section-title mzp-has-zap-8">
-            <strong>£299</strong>
-          </h2>
-        </div>
-      </div>
-      <div class="item">
-        <div class="deals">
-          <img
-            class="slider-img"
-            src="./images/cities-graphics/dubai.png"
-            alt=""
-          />
-          <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
-
-          <h2 class="c-section-title mzp-has-zap-8">
-            <strong>£299</strong>
-          </h2>
-        </div>
-      </div>
-      <div class="item">
-        <div class="deals">
-          <img
-            class="slider-img"
-            src="./images/cities-graphics/dubai.png"
-            alt=""
-          />
-          <div class="slider-p-div"><p class="deals-p">Dubai</p></div>
-
-          <h2 class="c-section-title mzp-has-zap-8">
+          <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
             <strong>£299</strong>
           </h2>
         </div>
       </div>
     </div>
     <!-- dragable deals slider ends  -->
-  </body>
 
-  <script src="./js/slider.js"></script>
+    <!-- a featured on section  -->
+    <div class="provider-list">
+      <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
+        <strong>As</strong> Featured On
+      </h2>
+
+      <ul class="provider-logo">
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/churchill-110-2.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/churchill-110-2.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/admiral-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/admiral-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/aa-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/aa-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/lv-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/lv-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/hastings-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/hastings-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/once-call-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/once-call-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
+            <img
+              class="provider-logo__image loading"
+              data-msm-image-grayscale=""
+              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/esure-v1.jpg"
+              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/esure-v1.jpg"
+              data-was-processed="true"
+            />
+          </a>
+        </li>
+        <!---->
+      </ul>
+    </div>
+
+    <!-- a featured on section ends  -->
+
+    <!-- user stories section -->
+    <section class="user-stories">
+      <h2 class="c-section-title mzp-has-zap-8">
+        <strong>Member</strong> Stories
+      </h2>
+      <div class="userstories">
+        <div class="userstory1">
+          <img
+            class="user-story-img"
+            src="https://as1.ftcdn.net/jpg/02/85/33/42/500_F_285334271_LRk5PrNAincSlqvjZ3BtMXvPMeYL0Q2C.jpg"
+            alt=""
+          />
+        </div>
+        <div class="userstory2">
+          <h3 class="user-storiesh3">
+            "Getting Mistake Fares has been a game changer."
+          </h3>
+          <p class="user-story-p">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            quaerat veniam quae porro. Error non, doloremque tempora
+            necessitatibus asperiores perferendis ex deserunt modi voluptatum
+            minima incidunt saepe, obcaecati eius adipisci corrupti perspiciatis
+            laborum illo eligendi quo officia quisquam nam earum ab quod!
+            Aperiam animi itaque voluptates doloribus. Quis, omnis
+            exercitationem.
+          </p>
+          <p class="c-section-title mzp-has-zap-8 user-stories-name">
+            <strong>Imran & Uzma</strong>
+          </p>
+          <div class="text-center">
+            <a
+              href="/en-GB/firefox/download/thanks/"
+              class="download-link mzp-c-button mzp-t-product mzp-t-xl"
+            >
+              See More Member Stories
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- user stories section ends -->
+    <script src="./js/slider.js"></script>
+    <!-- Code injected by live-server -->
+  </body>
 </html>

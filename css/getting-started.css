@@ -858,4 +858,587 @@ main h3 {
   flex-direction: row;
   flex-grow: initial;
 }
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
 /* dragable deals slider ends  */
+
+/* as featured on section  */
+/*! CSS Used from: Embedded */
+.msm-primary h3 {
+  font-family: "MSM Primary", "Arial Black", sans-serif;
+  font-weight: 500;
+}
+h3 {
+  font-size: 20px;
+  color: #674186;
+}
+.fancy-button,
+.fancy-button:link {
+  text-decoration: none;
+}
+.msm-primary .fancy-button {
+  font-family: "MSM Primary", "Arial Black", sans-serif;
+  font-weight: 500;
+}
+.fancy-button {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  display: inline-block;
+  background-color: #bd479a;
+  border: 1px solid #bd479a;
+  padding: 11px 20px;
+  border-radius: 25px;
+}
+.fancy-button--white {
+  background: #fff;
+  border-color: #0070c9;
+  color: #0070c9;
+}
+.fancy-button__margin-bottom {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .fancy-button {
+    margin-top: 15px;
+  }
+}
+.provider-logo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  margin: 32px 0 37px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .provider-logo {
+    margin: 30px 0;
+  }
+  .provider-list h3.provider-list__header {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 494px) and (max-width: 767px) {
+  .provider-logo {
+    margin: 20px auto;
+    width: 420px;
+  }
+  .provider-list h3.provider-list__header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+  }
+}
+@media screen and (max-width: 493px) {
+  .provider-logo {
+    margin: 20px auto;
+    width: 280px;
+  }
+}
+.provider-logo__item {
+  margin: 0 10px;
+  list-style: none;
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .provider-logo__item {
+    margin: 0 7px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .provider-logo__item {
+    margin: 0 6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .provider-logo__item {
+    margin: 10px 15px;
+  }
+}
+.provider-logo__image {
+  width: 130px;
+  height: 81px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media screen and (max-width: 1439px) {
+  .provider-logo__image {
+    width: 110px;
+    height: 69px;
+  }
+}
+@media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+  .provider-logo__image {
+    display: none;
+  }
+}
+.provider-list {
+  text-align: center;
+  padding: 42px 10px 5px;
+  background: #fff;
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .provider-list {
+    padding: 42px 13px 12px;
+  }
+  .provider-list__subheader {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .provider-list {
+    padding: 32px 14px 2px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .provider-list {
+    padding: 32px 5px 2px;
+  }
+}
+.provider-list h3.provider-list__header {
+  font-family: MSM Primary, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: #54366e;
+  margin-top: 0;
+}
+.provider-list__subheader {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: #646664;
+}
+@media screen and (max-width: 1023px) {
+  .provider-logo__item:nth-child(7) {
+    display: none;
+  }
+  .provider-list h3.provider-list__header {
+    font-size: 2.6rem;
+  }
+  .provider-list__subheader {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 494px) and (max-width: 767px) {
+  .provider-list__subheader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+  }
+}
+@media screen and (max-width: 493px) {
+  .provider-list h3.provider-list__header,
+  .provider-list__subheader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  }
+}
+.provider-list .fancy-button {
+  font-size: 1.4rem;
+  padding: 8px 18px 9px;
+  line-height: 1.9rem;
+  margin: 0 0 37px;
+}
+@media screen and (max-width: 1439px) {
+  .provider-list .fancy-button {
+    margin-bottom: 30px;
+  }
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+p {
+  margin: 0 0 10px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+a {
+  background-color: transparent;
+  color: #0070c9;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:visited {
+  color: #85679e;
+}
+/*! CSS Used from: https://www.moneysupermarket.com/etc/designs/moneysupermarket-shop/ui/moneysupermarket_shop_clientlib_styles-base.ACSHASH6b1f57e7c3a6e5598f14e3c59db9bb3e.css ; media=all */
+@media all {
+  img {
+    border: 0;
+  }
+  a {
+    background-color: transparent;
+    color: #0070c9;
+    text-decoration: none;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  img {
+    vertical-align: middle;
+  }
+  *,
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a:focus,
+  a:hover {
+    color: #00457d;
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+  }
+  [role="button"] {
+    cursor: pointer;
+  }
+  h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+  ul {
+    margin-top: 0;
+  }
+  ul {
+    margin-bottom: 10px;
+  }
+  a {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .msm-primary h3 {
+    font-family: "MSM Primary", "Arial Black", sans-serif;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 20px;
+    color: #674186;
+  }
+  .fancy-button,
+  .fancy-button:hover,
+  .fancy-button:link {
+    text-decoration: none;
+  }
+  .msm-primary .fancy-button {
+    font-family: "MSM Primary", "Arial Black", sans-serif;
+    font-weight: 500;
+  }
+  .fancy-button,
+  .fancy-button:focus,
+  .fancy-button:visited {
+    color: #fff;
+  }
+  .fancy-button {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 14px;
+    line-height: 1.4rem;
+    display: inline-block;
+    background-color: #bd479a;
+    border: 1px solid #bd479a;
+    padding: 11px 20px;
+    border-radius: 25px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .fancy-button:hover {
+    background-color: #a13a82;
+    border-color: #a13a82;
+    color: #fff;
+  }
+  .fancy-button:active,
+  .fancy-button:focus {
+    outline: 0;
+  }
+  .fancy-button--white {
+    background: #fff;
+    border-color: #0070c9;
+    color: #0070c9;
+  }
+  .fancy-button--white:focus,
+  .fancy-button--white:visited {
+    color: #0070c9;
+  }
+  .fancy-button--white:hover {
+    color: #bd479a;
+    background: #fff;
+    border-color: #bd479a;
+  }
+  .fancy-button__margin-bottom {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    .fancy-button {
+      margin-top: 15px;
+    }
+  }
+}
+/*! CSS Used from: https://www.moneysupermarket.com/etc/designs/moneysupermarket-shop-cbd/bundle/shoplandingpage.ACSHASH079aefc67fa632502a0cbcc71f33d27d.css ; media=all */
+@media all {
+  a {
+    font-weight: 500;
+  }
+  a:focus,
+  a:hover {
+    color: #bd479a;
+  }
+  a:visited {
+    color: #85679e;
+  }
+  .provider-logo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin: 32px 0 37px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    .provider-logo {
+      margin: 30px 0;
+    }
+  }
+  @media screen and (min-width: 494px) and (max-width: 767px) {
+    .provider-logo {
+      margin: 20px auto;
+      width: 420px;
+    }
+  }
+  @media screen and (max-width: 493px) {
+    .provider-logo {
+      margin: 20px auto;
+      width: 280px;
+    }
+  }
+  .provider-logo__item {
+    margin: 0 10px;
+    list-style: none;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .provider-logo__item {
+      margin: 0 7px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .provider-logo__item {
+      margin: 0 6px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .provider-logo__item {
+      margin: 10px 15px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .provider-logo__item:nth-child(7) {
+      display: none;
+    }
+  }
+  .provider-logo__image {
+    width: 130px;
+    height: 81px;
+    transition: -webkit-filter 0.2s;
+    transition: filter 0.2s;
+    transition: filter 0.2s, -webkit-filter 0.2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .provider-logo__image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 1439px) {
+    .provider-logo__image {
+      width: 110px;
+      height: 69px;
+    }
+  }
+  @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+    .provider-logo__image {
+      display: none;
+    }
+  }
+  @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+    .provider-logo__link:hover .provider-logo__image {
+      display: inline-block;
+    }
+  }
+  .provider-list {
+    text-align: center;
+    padding: 42px 10px 5px;
+    background: #fff;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .provider-list {
+      padding: 42px 13px 12px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .provider-list {
+      padding: 32px 14px 2px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .provider-list {
+      padding: 32px 5px 2px;
+    }
+  }
+  .provider-list h3.provider-list__header {
+    font-family: MSM Primary, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: #54366e;
+    margin-top: 0;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    .provider-list h3.provider-list__header {
+      margin-bottom: 5px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .provider-list h3.provider-list__header {
+      font-size: 2.6rem;
+    }
+  }
+  @media screen and (min-width: 494px) and (max-width: 767px) {
+    .provider-list h3.provider-list__header {
+      margin-left: auto;
+      margin-right: auto;
+      width: 390px;
+    }
+  }
+  @media screen and (max-width: 493px) {
+    .provider-list h3.provider-list__header {
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+    }
+  }
+  .provider-list__subheader {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #646664;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .provider-list__subheader {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .provider-list__subheader {
+      font-size: 1.6rem;
+    }
+  }
+  @media screen and (min-width: 494px) and (max-width: 767px) {
+    .provider-list__subheader {
+      margin-left: auto;
+      margin-right: auto;
+      width: 390px;
+    }
+  }
+  @media screen and (max-width: 493px) {
+    .provider-list__subheader {
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+    }
+  }
+  .provider-list .fancy-button {
+    font-size: 1.4rem;
+    padding: 8px 18px 9px;
+    line-height: 1.9rem;
+    margin: 0 0 37px;
+  }
+  @media screen and (max-width: 1439px) {
+    .provider-list .fancy-button {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/* user storis section  */
+.userstories {
+  display: flex;
+  justify-content: center;
+}
+
+.user-stories {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
+    0 3px 16px 2px rgba(9, 32, 77, 0.12), 0 5px 10px -3px rgba(29, 17, 51, 0.12);
+  margin: 16px;
+  padding: 32px;
+}
+
+.userstory1,
+.userstory2 {
+  width: 100%;
+  text-align: center;
+}
+
+.user-story-img {
+  border-radius: 65px;
+}
+.user-story-p {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.user-storiesh3 {
+  margin-top: 6%;
+  font-size: 2rem;
+  text-align: justify;
+  margin-right: 10px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.user-stories-name {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 1125px) {
+  .userstories {
+    flex-direction: column;
+  }
+}
