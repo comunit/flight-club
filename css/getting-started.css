@@ -2253,3 +2253,45 @@ h3:last-child {
   padding-left: 0;
 }
 /* start now section ends */
+
+/* footer starts here  */
+/*! CSS Used from: Embedded */
+
+.hhoSZh {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #04162b;
+}
+@media (min-width: 1024px) {
+  .hhoSZh {
+    flex-flow: row nowrap;
+  }
+}
+.yzkRM {
+  display: flex;
+}
+.gvobqb {
+  margin: 24px 16px;
+}
+@media (min-width: 1024px) {
+  .gvobqb {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+.gadVFn {
+  font-size: 0.875em;
+}
+.gadVFn:hover {
+  color: rgb(201, 206, 214);
+  text-decoration: underline;
+}
+
+.footer-p {
+  color: white;
+}
