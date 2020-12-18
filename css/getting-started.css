@@ -25,6 +25,11 @@
 
 .header-li-left {
   float: left;
+  padding: 0 !important;
+}
+
+.logo-header-strong {
+  font-size: 1rem;
 }
 
 .header-li-right button {
