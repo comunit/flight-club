@@ -348,10 +348,40 @@ main h3 {
   }
 }
 
+@media (max-width: 600px) {
+  .mzp-l-content {
+    margin-top: 44px !important;
+  }
+}
+
 @media (max-width: 500px) {
   .main-signup-inputs {
     width: 95%;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 439px) {
+  .c-section-title {
+    font-size: 1.5rem;
+  }
+  .main-p {
+    font-size: 1rem;
+  }
+  .main-signup-inputs {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 348px) {
+  .c-section-title {
+    font-size: 1.2rem;
+  }
+  .main-p {
+    font-size: 0.8rem;
+  }
+  .main-signup-inputs {
+    font-size: 1rem;
   }
 }
 
@@ -399,6 +429,7 @@ main h3 {
   color: white;
 }
 
+/* main sign up section ends  */
 /* button  */
 a.animated-button:link,
 a.animated-button:visited {
