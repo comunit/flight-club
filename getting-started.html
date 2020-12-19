@@ -217,11 +217,11 @@
         <div class="deals" style="border-color: #764a5b">
           <img
             class="slider-img"
-            src="./images/cities-graphics/moscow.png"
+            src="./images/cities-graphics/los angeles.png"
             alt=""
           />
           <div class="slider-p-div">
-            <p class="deals-p">Moscow</p>
+            <p class="deals-p">Los Angeles</p>
           </div>
 
           <h2 class="c-section-title mzp-has-zap-8 margin-bottom-0">
@@ -263,10 +263,21 @@
             data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
             data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
           >
+            <img src="./images/as-featured-logos/bbc.png" />
+          </a>
+        </li>
+        <!---->
+        <li
+          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
+          class="provider-logo__item"
+        >
+          <a
+            class="provider-logo__link"
+            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
+            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
+          >
             <img
-              data-msm-image-grayscale=""
-              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/churchill-110-2.jpg"
-              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/churchill-110-2.jpg"
+              src="./images/as-featured-logos/sky-scanner.png"
               data-was-processed="true"
             />
           </a>
@@ -281,30 +292,7 @@
             data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
             data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
           >
-            <img
-              data-msm-image-grayscale=""
-              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/admiral-v1.jpg"
-              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/admiral-v1.jpg"
-              data-was-processed="true"
-            />
-          </a>
-        </li>
-        <!---->
-        <li
-          data-ng-repeat="logo in ::$ctrl.selectedLogos track by $index"
-          class="provider-logo__item"
-        >
-          <a
-            class="provider-logo__link"
-            data-ng-attr-target="{{::($ctrl.openInNewTab ? '_blank' : undefined)}}"
-            data-ng-attr-href="{{::($ctrl.enableLinks &amp;&amp; logo.providerUrl || undefined)}}"
-          >
-            <img
-              data-msm-image-grayscale=""
-              data-ng-src="/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/aa-v1.jpg"
-              src="https://www.moneysupermarket.com/content/dam/moneysupermarket/images/insurance/car-insurance/trustedproviders/aa-v1.jpg"
-              data-was-processed="true"
-            />
+            <img src="./images/as-featured-logos/google.png" />
           </a>
         </li>
         <!---->
