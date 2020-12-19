@@ -166,6 +166,8 @@ h3 {
 .mzp-c-emphasis-box {
   background: #fff;
   border-radius: 8px;
+  -webkit-box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
+    0 3px 16px 2px rgba(9, 32, 77, 0.12), 0 5px 10px -3px rgba(29, 17, 51, 0.12);
   box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
     0 3px 16px 2px rgba(9, 32, 77, 0.12), 0 5px 10px -3px rgba(29, 17, 51, 0.12);
   margin: 16px;
@@ -393,20 +395,32 @@ main h3 {
 
 .hhoSZh {
   -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
   flex-flow: column wrap;
   -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 40px 20px;
   background-color: #04162b;
 }
 @media (min-width: 1024px) {
   .hhoSZh {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
   }
 }
 .yzkRM {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .gvobqb {
@@ -449,7 +463,6 @@ a.animated-button:visited {
   border-radius: 0;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
@@ -463,7 +476,6 @@ a.animated-button:visited:after {
   width: 150%;
   z-index: -1;
   -webkit-transition: all 0.75s ease 0s;
-  -moz-transition: all 0.75s ease 0s;
   -o-transition: all 0.75s ease 0s;
   transition: all 0.75s ease 0s;
 }
@@ -493,7 +505,6 @@ a.animated-button:visited {
   letter-spacing: 0.08em;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
@@ -510,6 +521,8 @@ a.animated-button.thar-four {
   display: block;
   position: relative;
   border: 2px solid #885fa5;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 a.animated-button.thar-four:hover {
@@ -534,6 +547,8 @@ a.animated-button.thar-four:before {
   content: "";
   color: #fff !important;
   background: #885fa5;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   border: none;
 }
