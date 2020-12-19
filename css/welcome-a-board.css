@@ -525,7 +525,8 @@ a.animated-button.thar-four {
   -o-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-a.animated-button.thar-four:hover {
+a.animated-button.thar-four:hover,
+a.animated-button.thar-four:active {
   color: #000 !important;
   background-color: transparent;
   text-shadow: nfour;
