@@ -409,7 +409,7 @@ main h2 {
   only screen and (min-resolution: 1.5dppx),
   only screen and (min-resolution: 144dpi) {
   .noodle-browser {
-    background-image: url("https://www.mozilla.org/media/img/firefox/new/desktop/hero-high-res.21ccf6816984.png");
+    background-image: url("../images/hero-image.png");
     background-size: 512px 371px;
   }
 }
@@ -1754,6 +1754,14 @@ h3 {
   background: url(https://www.twilio.com/docs/static/dist/img/b122ff44.svg) 50% /
     contain no-repeat transparent;
   margin-top: 12px;
+}
+
+._price {
+  font-size: 3rem !important;
+}
+
+.what-trip {
+  font-size: 1.6rem !important;
 }
 
 /* user stores scetion ends  */
