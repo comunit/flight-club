@@ -5,6 +5,28 @@
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer,
+.page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 142px;
+}
+.site-footer {
+  background: orange;
+}
+
 /* header section  */
 .container-header {
   max-width: 1100px;
@@ -129,10 +151,6 @@ h3 {
     font-size: 3rem;
   }
 }
-p,
-ul {
-  margin: 0 0 1.25em;
-}
 .mzp-u-title-xs {
   font-size: 18px;
   font-size: 1.125rem;
@@ -209,20 +227,19 @@ main h3 {
   }
 }
 .c-section-title {
-  font-size: 24px;
-  font-size: 1.5rem;
+  /* font-size: 24px; */
+  font-size: 2rem;
   line-height: 1.1;
   margin: 0 auto 64px;
   padding: 0 32px;
   max-width: 1056px;
   text-align: center;
 }
-@media (min-width: 768px) {
-  .c-section-title {
-    font-size: 40px;
-    font-size: 2.5rem;
-  }
+
+.main-p {
+  font-size: 1.3rem;
 }
+
 .c-section-title strong {
   white-space: nowrap;
 }
@@ -339,3 +356,150 @@ main h3 {
 }
 
 /* welcome a board section ends  */
+
+/* footer starts here  */
+/*! CSS Used from: Embedded */
+
+.hhoSZh {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #04162b;
+}
+@media (min-width: 1024px) {
+  .hhoSZh {
+    flex-flow: row nowrap;
+  }
+}
+.yzkRM {
+  display: flex;
+}
+.gvobqb {
+  margin: 24px 16px;
+}
+@media (min-width: 1024px) {
+  .gvobqb {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+.gadVFn {
+  font-size: 0.875em;
+}
+.gadVFn:hover {
+  color: rgb(201, 206, 214);
+  text-decoration: underline;
+}
+
+.footer-p {
+  color: white;
+}
+
+/* button  */
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+a.animated-button:link:after,
+a.animated-button:visited:after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
+  color: #fff;
+  text-shadow: none;
+}
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after {
+  height: 450%;
+}
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.thar-four {
+  width: 200px;
+  color: black !important;
+  border-color: black !important;
+}
+
+a.animated-button.thar-four {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #885fa5;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.animated-button.thar-four:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: nfour;
+}
+a.animated-button.thar-four:hover:before {
+  right: 0%;
+  left: auto;
+  width: 100%;
+}
+a.animated-button.thar-four:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: "";
+  color: #fff !important;
+  background: #885fa5;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
