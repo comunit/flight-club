@@ -516,6 +516,7 @@ a.animated-button.thar-four:hover {
   color: #000 !important;
   background-color: transparent;
   text-shadow: nfour;
+  border: none;
 }
 a.animated-button.thar-four:hover:before {
   right: 0%;
@@ -534,4 +535,5 @@ a.animated-button.thar-four:before {
   color: #fff !important;
   background: #885fa5;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  border: none;
 }
