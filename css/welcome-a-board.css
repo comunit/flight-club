@@ -353,8 +353,8 @@ main h3 {
   display: none;
 }
 
-.main-signup-inputs {
-  outline-width: 0;
+.main-signup-inputs:focus {
+  outline: none;
 }
 
 @media (max-width: 1150px) {
