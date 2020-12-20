@@ -339,6 +339,7 @@ main h3 {
   border-top: none;
   border-left: none;
   border-right: none;
+  transition: all 1s;
 }
 
 #create-a-password {
