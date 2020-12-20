@@ -540,9 +540,9 @@ a.animated-button.thar-four {
 a.animated-button.thar-four:hover,
 a.animated-button.thar-four:active {
   color: #000 !important;
-  background-color: transparent;
+  background-color: white;
   text-shadow: nfour;
-  border: none;
+  /* border: none; */
 }
 a.animated-button.thar-four:hover:before {
   right: 0%;

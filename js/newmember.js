@@ -14,7 +14,6 @@ NextButton.addEventListener("click", function (e) {
       signUpPassword.style.display = "inline-block";
       SignUpPTag.innerHTML = "Create a password for your account";
       signUpPassword.focus();
-      NextButton.style.backgroundColor = "transparent";
       step = 2;
     }, 1000);
   }
