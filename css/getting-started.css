@@ -309,9 +309,6 @@ main h2 {
   margin-top: 8%;
 }
 @media all and (max-width: 767px) {
-  .c-block-body:first-child {
-    margin-bottom: 48px;
-  }
   .mzp-has-media-hide-on-sm .c-block-body {
     margin-bottom: 0;
     margin-top: 0;
@@ -2300,6 +2297,18 @@ h3:last-child {
   .gvobqb {
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-noodles {
+    display: none;
+  }
+  .c-block-body {
+    width: 100%;
+  }
+  .mzp-l-content {
+    margin-top: 0px !important;
   }
 }
 .gadVFn {

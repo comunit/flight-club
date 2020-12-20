@@ -28,6 +28,13 @@ body {
 }
 
 /* header section  */
+.header-ul a {
+  color: black;
+}
+
+.header-ul a:hover {
+  color: black;
+}
 .container-header {
   max-width: 1100px;
   margin: 0 auto;
