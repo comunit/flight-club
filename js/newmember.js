@@ -2,6 +2,7 @@ var signUpEmail = document.getElementById("email_sign-up");
 var signUpPassword = document.getElementById("create-a-password");
 var NextButton = document.getElementById("next-button");
 var SignUpPTag = document.getElementById("sign-up-p-tag");
+var welComeABoard = document.getElementById("welcome-a-board");
 var step = 1;
 
 NextButton.addEventListener("click", function (e) {
@@ -10,6 +11,7 @@ NextButton.addEventListener("click", function (e) {
     console.log("step-1");
     signUpEmail.style.width = "0";
     setTimeout(() => {
+      welComeABoard.click();
       signUpEmail.style.display = "none";
       signUpPassword.style.display = "inline-block";
       SignUpPTag.innerHTML = "Create a password for your account";
