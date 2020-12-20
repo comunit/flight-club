@@ -613,6 +613,13 @@ ul {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 403px) {
+  .here-is-how-this-work-title,
+  .recent-trips-title {
+    font-size: 1rem !important;
+  }
+}
 /*! CSS Used from: https://www.mozilla.org/media/css/BUNDLES/firefox_desktop_download.ed849a028caf.css */
 .mzp-c-emphasis-box {
   background: #fff;
