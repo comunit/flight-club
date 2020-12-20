@@ -565,3 +565,23 @@ a.animated-button.thar-four:before {
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   border: none;
 }
+
+/* error div  */
+.error-div {
+  margin-top: 15px;
+  color: #d8000c;
+  display: none;
+}
+
+/* error div done  */
+
+/* spinner */
+
+.spinner {
+  display: none;
+}
+.spinner-svg {
+  margin: 10px;
+  width: 40px;
+}
+/* spinner done  */
