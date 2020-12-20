@@ -341,6 +341,10 @@ main h3 {
   border-right: none;
 }
 
+#create-a-password {
+  display: none;
+}
+
 .main-signup-inputs {
   outline-width: 0;
 }

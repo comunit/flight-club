@@ -29,7 +29,9 @@
           <h2 class="c-section-title mzp-has-zap-8">
             <strong>Welcome</strong> a Board
           </h2>
-          <p class="text-center main-p">Where should we send your deals?</p>
+          <p class="text-center main-p" id="sign-up-p-tag">
+            Where should we send your deals?
+          </p>
           <div class="div-input-wrapper text-center">
             <input
               class="main-signup-inputs"
@@ -38,8 +40,19 @@
               id="email_sign-up"
               placeholder="Enter Email Address"
             />
+
+            <input
+              class="main-signup-inputs"
+              type="password"
+              name="create-a-password"
+              id="create-a-password"
+              placeholder="Create A Password"
+            />
             <div class="col-md-3 col-sm-3 col-xs-6">
-              <a href="#" class="btn btn-sm animated-button thar-four"
+              <a
+                href="#"
+                class="btn btn-sm animated-button thar-four"
+                id="next-button"
                 >Submit</a
               >
             </div>
@@ -103,7 +116,7 @@
       </div>
       <p class="footer-p">©2020 {NAME} Flight Club. All Rights Reserved.</p>
     </div>
-    <script src="./js/slider.js"></script>
+    <script src="./js/newmember.js"></script>
     <!-- footer ends  -->
   </body>
 </html>
