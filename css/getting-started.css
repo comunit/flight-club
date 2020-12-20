@@ -314,6 +314,12 @@ main h2 {
     margin-top: 0;
   }
 }
+
+@media all and (max-width: 650px) {
+  .c-block-body {
+    margin-top: 55px;
+  }
+}
 .c-block-media {
   position: relative;
 }
