@@ -325,7 +325,7 @@ main h3 {
   padding-top: 8px;
 }
 .t-releases img {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 .c-notes {
   margin-bottom: 32px;
@@ -583,3 +583,33 @@ a.animated-button.thar-four:before {
   width: 40px;
 }
 /* spinner done  */
+
+/* Account css  */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-item {
+  width: 200px;
+  height: 100px;
+  flex-grow: 4;
+  background: #fff;
+  border: 1px solid #efecf2;
+  box-shadow: 0 4px 9px 0 rgba(133, 103, 158, 0.24);
+  border-radius: 5px;
+  margin: 0 10px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flex-item:hover {
+  border-color: #674186;
+}
+
+.account-img {
+  margin-top: 10px;
+  width: 40px;
+}
