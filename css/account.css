@@ -630,3 +630,9 @@ a.animated-button.thar-four:before {
   padding: 10px;
   cursor: pointer;
 }
+
+.main-h2-img {
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
