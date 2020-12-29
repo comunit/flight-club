@@ -636,3 +636,110 @@ a.animated-button.thar-four:before {
   margin: 0 auto;
   display: none;
 }
+
+/* profile container  */
+.youemail-wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+.inner-profile-container,
+.inner-billing-container {
+  width: 100%;
+}
+.primaryemail {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.main-heading-h4 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+.main-inputs {
+  display: block;
+  width: 220px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.update {
+  padding: 8px;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 444px) {
+  .primaryemail {
+    font-size: 1.3rem;
+  }
+  .cannot-change-email {
+    font-size: 0.9rem;
+  }
+  .main-inputs {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+/* profile container ends  */
+
+/* billing container  */
+
+.inner-billing-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.biling-details {
+  display: inline-block;
+}
+
+.billing-ul {
+  width: 100%;
+  padding-left: 0;
+}
+.billing-li {
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+}
+
+.billing-p-left {
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+}
+.billing-p-right {
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+}
+
+.billing-p {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.update-payment {
+  text-align: center;
+}
+
+.update-payment-button {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 544px) {
+  .billing-p {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+}
+/* billing container ends  */

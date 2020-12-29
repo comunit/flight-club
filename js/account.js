@@ -1,19 +1,32 @@
-var cats = document.getElementsByClassName("flex-item");
+var accountOption = document.getElementById("account-options");
+var profileMain = document.getElementById("profile-main");
+var profileContainer = document.getElementById("profile-container");
+var billingMain = document.getElementById("billing-main");
+var billingContainer = document.getElementById("billing-container");
 var backButton = document.getElementsByClassName("back-img");
 var contentContainer = document.getElementsByClassName("content-container");
 var mainH2Img = document.getElementById("main-h2-img");
 var mainWelcomeHeading = document.getElementById("Welcome-main-heading");
 
-for (let i = 0; i < cats.length; i++) {
-  const cat = cats[i];
-  cat.addEventListener("click", () => {
-    document.getElementsByClassName("flex-container")[0].style.display = "none";
-    document.getElementById("profile-container").style.display = "flex";
-    mainH2Img.style.display = "block";
-    mainWelcomeHeading.innerHTML = "Profile";
-  });
-}
+profileMain.addEventListener("click", function () {
+  profileContainer.style.display = "flex";
+  accountOption.style.display = "none";
+  mainWelcomeHeading.innerHTML = "Profile";
+  mainH2Img.style.display = "block";
+  mainH2Img.src =
+    "https://www.flaticon.com/svg/static/icons/svg/633/633780.svg";
+});
 
+billingMain.addEventListener("click", function () {
+  billingContainer.style.display = "flex";
+  accountOption.style.display = "none";
+  mainWelcomeHeading.innerHTML = "Billing";
+  mainH2Img.style.display = "block";
+  mainH2Img.src =
+    "https://www.flaticon.com/svg/static/icons/svg/1371/1371962.svg";
+});
+
+// go back button
 for (let i = 0; i < backButton.length; i++) {
   const goBackButton = backButton[i];
   goBackButton.addEventListener("click", () => {

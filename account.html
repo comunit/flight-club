@@ -39,8 +39,8 @@
             <strong>Welcome </strong> Imran
           </h2>
 
-          <div class="flex-container">
-            <div class="flex-item">
+          <div class="flex-container" id="account-options">
+            <div class="flex-item" id="profile-main">
               <img
                 class="account-img"
                 src="https://www.flaticon.com/svg/static/icons/svg/633/633780.svg"
@@ -48,7 +48,7 @@
               />
               <p class="account-p">Profile</p>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="billing-main">
               <img
                 class="account-img"
                 src="https://www.flaticon.com/svg/static/icons/svg/1371/1371962.svg"
@@ -74,6 +74,7 @@
             </div>
           </div>
 
+          <!-- Profile container  -->
           <div
             class="profile-container content-container"
             id="profile-container"
@@ -85,9 +86,88 @@
             />
 
             <div class="inner-profile-container">
-              <h1>Profile</h1>
+              <div class="youemail-wrapper">
+                <p class="profile-input-p">Your Primary Email</p>
+                <p class="primaryemail">comunit@live.com</p>
+                <p class="cannot-change-email">
+                  The email address cannot be changed
+                </p>
+              </div>
+
+              <br />
+              <div class="password-change">
+                <h4 class="main-heading-h4">Change Your Password</h4>
+                <label for="Changepassword">Current Password</label>
+                <input
+                  type="password"
+                  id="currentpassword"
+                  class="main-inputs"
+                />
+
+                <label for="Changepassword">New Password</label>
+                <input type="password" id="newpassword" class="main-inputs" />
+                <button class="update">Update Password</button>
+              </div>
             </div>
           </div>
+          <!-- profile container ends  -->
+
+          <!-- billing container  -->
+          <div
+            class="billing-container content-container"
+            id="billing-container"
+          >
+            <img
+              class="back-img"
+              src="https://www.flaticon.com/svg/static/icons/svg/2089/2089649.svg"
+              alt=""
+            />
+
+            <div class="inner-billing-container">
+              <div class="billing-details">
+                <ul class="billing-ul">
+                  <li class="billing-li">
+                    <p class="billing-p-left billing-p">Next Billing Date</p>
+                    <p class="billing-p-right billing-p">Jan 23, 2021</p>
+                  </li>
+                  <li class="billing-li">
+                    <p class="billing-p-left billing-p">Payment Method</p>
+                    <p class="billing-p-right billing-p">
+                      <span
+                        ><svg
+                          width="34"
+                          height="22"
+                          viewBox="0 0 34 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0.5 4C0.5 2.067 2.067 0.5 4 0.5H29.5238C31.4568 0.5 33.0238 2.067 33.0238 4V18C33.0238 19.933 31.4568 21.5 29.5238 21.5H4C2.067 21.5 0.5 19.933 0.5 18V4Z"
+                            fill="white"
+                            stroke="#D3D3D3"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.7852 7.59352C16.4157 7.74743 15.8344 7.91534 15.1103 7.91534C13.2623 7.91534 11.9614 6.87465 11.9506 5.38458C11.9389 4.28253 12.8789 3.66773 13.5876 3.3014C14.316 2.92587 14.5608 2.68556 14.5578 2.34979C14.5528 1.83625 13.9764 1.6009 13.4391 1.6009C12.6907 1.6009 12.2931 1.71678 11.6784 2.00306L11.4379 2.12515L11.1765 0.408714C11.6124 0.195109 12.4204 0.0097313 13.259 0C15.223 0 16.4991 1.028 16.5141 2.61916C16.5208 3.49319 16.0228 4.15582 14.944 4.70278C14.2908 5.05821 13.89 5.29376 13.8945 5.65368C13.895 5.97247 14.2333 6.31355 14.9653 6.31355C15.5767 6.32396 16.0193 6.17482 16.3643 6.01899L16.5321 5.93119L16.7852 7.59352ZM8.13574 0.113281L9.30513 7.78126H11.1743L10.0051 0.113281H8.13574ZM20.019 4.97576C20.019 4.97576 19.4293 3.27326 19.2744 2.83252H20.8262C20.7523 3.21584 20.3936 5.04608 20.3936 5.04608L20.2675 5.7074C20.2222 5.56957 20.1606 5.39103 20.1102 5.24471L20.1028 5.22359L20.0955 5.20219C20.048 5.06499 20.0139 4.96623 20.019 4.97576ZM21.5803 7.7733H20.1358C19.6877 7.7733 19.3524 7.63761 19.156 7.13767L16.3801 0.110352H18.3434C18.3434 0.110352 18.6638 1.05574 18.7364 1.26313C18.8182 1.26313 19.1474 1.26252 19.538 1.26183L19.8152 1.26134H19.8337C20.3956 1.2603 20.9878 1.2592 21.1305 1.2592C21.1865 0.991621 21.3581 0.110352 21.3581 0.110352H23.093L21.5803 7.7733ZM6.56706 7.77548L4.73753 2.54777L4.54156 3.61042L3.88655 7.13376C3.77354 7.61964 3.44512 7.76375 3.0392 7.78073H0.0249222L0 7.62185C0.733321 7.42323 1.38912 7.13687 1.96378 6.78068L3.62603 0.120605L5.60422 0.121848L8.54787 7.77548H6.56706Z"
+                            transform="translate(4.79297 15.2485) scale(1 -1)"
+                            fill="#1A1F71"
+                          ></path></svg
+                      ></span>
+                      4242
+                    </p>
+                  </li>
+                </ul>
+                <br />
+                <div class="update-payment">
+                  <button class="update update-payment-button">
+                    Update Payment Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- billing container ends  -->
         </div>
       </section>
       <!-- welcome a board end  -->
