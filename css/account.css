@@ -800,7 +800,10 @@ a.animated-button.thar-four:before {
 /* see deals  */
 .see-deals {
   width: 100%;
-  background: #fff;
+  background-image: url(../images/account-see-deals.png);
+  background-size: cover;
+
+  background-repeat: no-repeat;
   border: 1px solid #efecf2;
   box-shadow: 0 4px 9px 0 rgba(133, 103, 158, 0.24);
   border-radius: 5px;
@@ -840,5 +843,17 @@ a.animated-button.thar-four:before {
   .see-deals h4 {
     margin-top: 60px;
     font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1162px) {
+  .see-deals {
+    background-image: url(../images/account-see-deals-812.png);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .see-deals {
+    background-image: url(../images/account-see-deals-508.png);
   }
 }
