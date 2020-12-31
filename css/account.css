@@ -743,3 +743,40 @@ a.animated-button.thar-four:before {
   }
 }
 /* billing container ends  */
+
+/* faqs container starts  */
+
+.quesions {
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.quesions h4 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid grey;
+}
+
+.inner-faqs-container,
+.quesions {
+  width: 100%;
+}
+
+.answers {
+  display: none;
+}
+.answers p {
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+  padding: 15px;
+}
+#chevron-down {
+  width: 20px;
+  transition: all 0.3s;
+}
+.questionsvg {
+  display: block;
+  width: 10px;
+  position: absolute;
+  right: 13px;
+  top: 0px;
+}
