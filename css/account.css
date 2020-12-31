@@ -796,3 +796,49 @@ a.animated-button.thar-four:before {
   margin-top: 20px;
   background-color: #dc2259;
 }
+
+/* see deals  */
+.see-deals {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #efecf2;
+  box-shadow: 0 4px 9px 0 rgba(133, 103, 158, 0.24);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.see-deals:hover {
+  border-color: #674186;
+}
+
+.see-deals h4 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+.see-deals p {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 530px) {
+  .see-deals p {
+    padding: 0px 10px;
+    padding-bottom: 100px;
+  }
+  .see-deals h4 {
+    margin-top: 60px;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .see-deals h4 {
+    margin-top: 60px;
+    font-size: 1.6rem;
+  }
+}

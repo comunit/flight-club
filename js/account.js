@@ -6,6 +6,7 @@ var billingContainer = document.getElementById("billing-container");
 var faqsMain = document.getElementById("faqs-main");
 var faqsContainer = document.getElementById("faqs-container");
 var cancelMemberShipMain = document.getElementById("cancel-membership-main");
+var seeDeals = document.getElementById("see-deals");
 var CancelMembersShipContainer = document.getElementById(
   "cancel-membership-container"
 );
@@ -15,6 +16,7 @@ var mainH2Img = document.getElementById("main-h2-img");
 var mainWelcomeHeading = document.getElementById("Welcome-main-heading");
 
 profileMain.addEventListener("click", function () {
+  seeDeals.style.display = "none";
   profileContainer.style.display = "flex";
   accountOption.style.display = "none";
   mainWelcomeHeading.innerHTML = "Profile";
@@ -24,6 +26,7 @@ profileMain.addEventListener("click", function () {
 });
 
 billingMain.addEventListener("click", function () {
+  seeDeals.style.display = "none";
   billingContainer.style.display = "flex";
   accountOption.style.display = "none";
   mainWelcomeHeading.innerHTML = "Billing";
@@ -33,6 +36,7 @@ billingMain.addEventListener("click", function () {
 });
 
 faqsMain.addEventListener("click", function () {
+  seeDeals.style.display = "none";
   faqsContainer.style.display = "flex";
   accountOption.style.display = "none";
   mainWelcomeHeading.innerHTML = "Faqs";
@@ -42,6 +46,7 @@ faqsMain.addEventListener("click", function () {
 });
 
 cancelMemberShipMain.addEventListener("click", function () {
+  seeDeals.style.display = "none";
   CancelMembersShipContainer.style.display = "flex";
   accountOption.style.display = "none";
   mainWelcomeHeading.innerHTML = "Cancel Membership";
@@ -56,6 +61,7 @@ for (let i = 0; i < backButton.length; i++) {
   goBackButton.addEventListener("click", () => {
     for (let i = 0; i < contentContainer.length; i++) {
       const contentContainers = contentContainer[i];
+      seeDeals.style.display = "block";
       contentContainers.style.display = "none";
       document.getElementsByClassName("flex-container")[0].style.display =
         "flex";
