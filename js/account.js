@@ -5,6 +5,10 @@ var billingMain = document.getElementById("billing-main");
 var billingContainer = document.getElementById("billing-container");
 var faqsMain = document.getElementById("faqs-main");
 var faqsContainer = document.getElementById("faqs-container");
+var cancelMemberShipMain = document.getElementById("cancel-membership-main");
+var CancelMembersShipContainer = document.getElementById(
+  "cancel-membership-container"
+);
 var backButton = document.getElementsByClassName("back-img");
 var contentContainer = document.getElementsByClassName("content-container");
 var mainH2Img = document.getElementById("main-h2-img");
@@ -20,7 +24,6 @@ profileMain.addEventListener("click", function () {
 });
 
 billingMain.addEventListener("click", function () {
-  console.log(12);
   billingContainer.style.display = "flex";
   accountOption.style.display = "none";
   mainWelcomeHeading.innerHTML = "Billing";
@@ -36,6 +39,15 @@ faqsMain.addEventListener("click", function () {
   mainH2Img.style.display = "block";
   mainH2Img.src =
     "https://www.flaticon.com/svg/static/icons/svg/942/942802.svg";
+});
+
+cancelMemberShipMain.addEventListener("click", function () {
+  CancelMembersShipContainer.style.display = "flex";
+  accountOption.style.display = "none";
+  mainWelcomeHeading.innerHTML = "Cancel Membership";
+  mainH2Img.style.display = "block";
+  mainH2Img.src =
+    "https://www.flaticon.com/svg/static/icons/svg/126/126497.svg";
 });
 
 // go back button

@@ -750,10 +750,13 @@ a.animated-button.thar-four:before {
   position: relative;
   margin-top: 20px;
   cursor: pointer;
+  border-bottom: 1px solid grey;
 }
 .quesions h4 {
   font-size: 1.5rem;
-  border-bottom: 1px solid grey;
+  margin-bottom: 12px;
+  display: block;
+  padding-right: 23px;
 }
 
 .inner-faqs-container,
@@ -774,9 +777,22 @@ a.animated-button.thar-four:before {
   transition: all 0.3s;
 }
 .questionsvg {
+  clear: both;
   display: block;
   width: 10px;
   position: absolute;
   right: 13px;
   top: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .quesions h4 {
+    font-size: 1rem;
+  }
+}
+
+/* cancel membership  */
+.cancel-membership button {
+  margin-top: 20px;
+  background-color: #dc2259;
 }
