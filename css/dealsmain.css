@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 * {
   font-family: "Commissioner", sans-serif !important;
   margin: 0;
@@ -611,7 +612,7 @@ input:-webkit-autofill:active {
 }
 
 .deal-small-pic img {
-  width: 100px;
+  width: 200px;
   margin-bottom: 0;
   border-radius: 10px;
 }
@@ -635,21 +636,52 @@ input:-webkit-autofill:active {
   right: 8px;
 }
 
+#Welcome-main-heading {
+  margin-bottom: 25px;
+}
+
+.inbox-deals {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Heebo", sans-serif !important;
+}
+
+.main-deal-dest {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Heebo", sans-serif !important;
+}
+
+.inner-deal-item p {
+  font-family: "Heebo", sans-serif !important;
+}
+
+@media (min-width: 600px) {
+  .inner-deal-item p {
+    max-width: 200px;
+  }
+}
+
 @media (max-width: 600px) {
   .inner-deals-container {
     flex-direction: column;
   }
 
   .inner-deal-item {
-    padding: 7px;
+    width: 100%;
+    margin-top: 20px;
   }
 
   .deal-small-pic img {
-    width: 201px;
+    width: 100%;
   }
 
   .deal-item {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .rouded-arrow {
+    float: right;
   }
 }
