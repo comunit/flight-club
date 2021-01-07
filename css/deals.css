@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 * {
   font-family: "Commissioner", sans-serif !important;
@@ -592,21 +593,28 @@ input:-webkit-autofill:active {
   font-size: 1.2rem;
   margin-bottom: 0em;
   max-width: 700px;
+  font-family: "Heebo", sans-serif !important;
 }
 
 .mainheadingp {
   font-size: 0.9rem;
   max-width: 700px;
+  font-family: "Heebo", sans-serif !important;
 }
 
 .sectionheadingdetails {
   max-width: 700px;
 }
 
+.sectionheadingdetails p {
+  font-family: "Heebo", sans-serif !important;
+}
+
 .sectionheading p {
   color: #4285f4;
   margin-bottom: 3px;
   font-size: 1.1rem;
+  font-family: "Heebo", sans-serif !important;
 }
 
 .button {
