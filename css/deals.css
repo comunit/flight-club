@@ -591,10 +591,16 @@ input:-webkit-autofill:active {
 .mainheading {
   font-size: 1.2rem;
   margin-bottom: 0em;
+  max-width: 700px;
 }
 
 .mainheadingp {
   font-size: 0.9rem;
+  max-width: 700px;
+}
+
+.sectionheadingdetails {
+  max-width: 700px;
 }
 
 .sectionheading p {
