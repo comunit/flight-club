@@ -662,9 +662,30 @@ input:-webkit-autofill:active {
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 779px) and (min-width: 768px) {
+  .rouded-arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1419px) and (min-width: 1336px) {
+  .deal-small-pic img {
+    width: 163px;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-deal-dest {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 700px) {
   .inner-deals-container {
     flex-direction: column;
+  }
+  .inner-deal-item p {
+    max-width: 100%;
   }
 
   .inner-deal-item {
